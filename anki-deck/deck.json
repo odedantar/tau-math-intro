@@ -123,6 +123,65 @@
                 }
             ],
             "type": 1
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3605bd8e-7429-11ee-87c6-e8f408280e78",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: left;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": [
@@ -134,6 +193,16 @@
             ],
             "guid": "C]0U@cs7i4",
             "note_model_uuid": "3605bd85-7429-11ee-8210-e8f408280e78",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is math fun?",
+                "Yes!"
+            ],
+            "guid": "d,|H[t/OZc",
+            "note_model_uuid": "3605bd8e-7429-11ee-87c6-e8f408280e78",
             "tags": []
         }
     ],
